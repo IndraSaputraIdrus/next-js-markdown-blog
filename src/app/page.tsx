@@ -1,7 +1,13 @@
+import Posts from "./components/Posts";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Hello world</h1>
+    <main className="prose mx-auto">
+      <p className="text-2xl text-black/90">
+        Hello, i'm indra. i like to make website (nextjs). You can contact me on
+        Twitter
+      </p>
+      <Posts />
     </main>
   );
 }
