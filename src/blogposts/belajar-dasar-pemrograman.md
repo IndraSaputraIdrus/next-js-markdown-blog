@@ -46,3 +46,7 @@ Pada dasarnya, website dibangun dengan tiga buah fondasi utama:
 - JavaScript: satu-satunya *programming language* yang didukung oleh browser untuk meningkatkan interkatifitas pada halaman web
 
 Perlu ditekankan bahwa ketiga komponen tersebut termasuk hal vital dalam pembangunan web. Sebenarnya, kita bisa saja membangun halaman web tanpa css dan javascript. Namun, website akan terlihat tidak menarik dan membosankan
+
+### Sumber
+Artikel ini merukapan catatan saya saat mengikuti course dari dicoding, tidak bermaksud untuk mengcopy artikel tersebut, tetapi hanya untuk menjadi bahan untuk belajar membuat website ini
+- [Dicoding](https://www.dicoding.com/academies/123/tutorials/32105)

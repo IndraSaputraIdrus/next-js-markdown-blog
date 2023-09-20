@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import remarkHtml from "remark-html";
+import remarkExternalLinks from "remark-external-links";
 
 const postDirectory = path.join(process.cwd(), "src", "blogposts");
 
@@ -38,6 +39,7 @@ export const getPostData = async (id: string) => {
   const matterResult = matter(fileContent);
 
   const processedContent = await remark()
+    .use(remarkExternalLinks)
     .use(remarkHtml)
     .process(matterResult.content)
 
